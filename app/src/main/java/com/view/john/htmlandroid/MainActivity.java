@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+        mList = new ArrayList<String>();
         mList.add("file:///android_asset/test1.html");
         mList.add("file:///android_asset/test2.html");
         mList.add("file:///android_asset/test3.html");
